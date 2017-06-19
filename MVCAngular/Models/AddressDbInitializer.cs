@@ -50,7 +50,7 @@ namespace MVCAngular.Models
 
         protected override void Seed(AddressContext db)
         {
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 50; i++)
             {
                 db.Addreses.Add(new Address
                 {
