@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - Почтовые адреса</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+
+<body ng-app="MyApp">
+    
+    @RenderBody()
+
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/angular")
+    <script src="~/Scripts/MyApp.js"></script>
+    @RenderSection("scripts",required: false)
+</body>
+</html>
